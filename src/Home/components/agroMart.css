@@ -1,0 +1,15 @@
+.agroMartBlock {
+  background-color: #ffff;
+  padding: 0.6rem 0.2rem 0.6rem 0.2rem;
+  width: 100%;
+  border-radius: 0.6rem;
+  color: #15773f;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.agroImg {
+  padding: 1rem 0 0 0;
+  height: 80px;
+  width: 100px;
+}

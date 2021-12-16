@@ -1,0 +1,89 @@
+.navbarBlock {
+  display: flex;
+  padding: 0.2rem;
+  height: 4vh;
+  justify-content: space-between;
+  background-color: #013213;
+  color: #ffff;
+}
+.menuBlockMobile {
+  display: none;
+}
+.leftWrapper {
+  display: flex;
+}
+.menuOptionsBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.menuOption {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0 0 0 1.5rem;
+}
+.logoBlock {
+  display: flex;
+}
+.logoImg {
+  height: 25px;
+  width: 25px;
+  margin: 0 0.6rem 0 0;
+}
+
+.logoName {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.userNameBlock {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.userWrapper {
+  display: flex;
+  width: 20vw;
+  justify-content: space-around;
+}
+.notificationIconBlock {
+  padding: 0rem 0.6rem 0 0;
+  border-right: 1px solid #686868;
+}
+.dateBlock {
+  padding: 0rem 0.6rem 0 0;
+  border-right: 1px solid #686868;
+}
+.fullscreenIconBlock {
+  padding: 0rem 0rem 0 0.6rem;
+  border-left: 1px solid #686868;
+}
+
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 420px) {
+  .menuOptionsBlock {
+    display: none;
+  }
+  .notificationIconBlock {
+    display: none;
+  }
+  .dateBlock {
+    display: none;
+  }
+  .fullscreenIconBlock {
+    display: none;
+  }
+  .userWrapper {
+    display: block;
+    width: max-content;
+  }
+  .menuBlockMobile {
+    display: block;
+  }
+  .actionsWrapper {
+    display: flex;
+  }
+  .hamburgerIcon {
+    padding: 0 2vw 0 5vw;
+  }
+  .fa-bars {
+    font-size: 7vw;
+  }
+}

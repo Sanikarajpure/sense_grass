@@ -1,0 +1,125 @@
+.homeWrapper {
+  background-color: #045922;
+}
+
+.homeBlock {
+  background-color: #045922;
+}
+.homeContentContainer {
+  margin: 2vh 0 0 0;
+  height: max-content;
+  padding: 3rem;
+  display: flex;
+}
+.dashboardHeading {
+  color: #ffff;
+  font-size: 1.3rem;
+  margin: 1rem 0 2rem 0;
+  width: max-content;
+}
+
+.homeContentLeftBlock {
+  width: 60%;
+  margin: 0 0 3rem 3rem;
+}
+.homeContentLeftContainer {
+  display: flex;
+}
+.currentWeatherConnectedDevicesContainer {
+  display: flex;
+  height: max-content;
+}
+.Header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.quickAccessBlock {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #045922;
+}
+.agroFeedMobileContainer {
+  display: none;
+}
+
+.agroFeedContainer {
+  width: max-content;
+}
+
+.homeContentRightBlock {
+  width: 30%;
+  margin: 0 0 3rem 3rem;
+}
+.toolsAndAppsHeadingBlock {
+  display: flex;
+  justify-content: space-between;
+  color: #ffff;
+  font-size: 1.3rem;
+  margin: 1rem 0 2rem 0;
+  align-items: center;
+}
+.appsHeading {
+  font-size: 0.6rem;
+}
+.cropHealthAgroMartBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.cropHealthContainer {
+  width: 48%;
+}
+.agroMartContainer {
+  width: 48%;
+}
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 420px) {
+  .homeContentContainer {
+    margin: 4.8vh 0 0;
+    height: max-content;
+    padding: 2vh 0 0 0.8rem;
+    display: block;
+  }
+  .dashboardHeading {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 0.2rem;
+  }
+  .homeContentLeftBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+  }
+  .homeContentRightBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+    width: 95%;
+    padding: 0 0 7rem 0;
+  }
+  .toolsAndAppsHeadingBlock {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    font-size: 1.3rem;
+    margin: 1rem 0 1rem 0;
+    align-items: center;
+    width: 100%;
+  }
+  .cropHealthAgroMartBlock {
+    display: flex;
+  }
+  .homeContentLeftContainer {
+    display: block;
+  }
+  .currentWeatherConnectedDevicesContainer {
+    display: block;
+  }
+  .agroFeedContainer {
+    display: none;
+  }
+  .connectedDevicesAgroFeedMobileContainer {
+    display: flex;
+  }
+  .agroFeedMobileContainer {
+    display: block;
+  }
+}

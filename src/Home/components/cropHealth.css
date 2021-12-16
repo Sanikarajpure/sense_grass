@@ -1,0 +1,15 @@
+.cropHealthBlock {
+  background-color: #ffff;
+  padding: 0.6rem;
+  width: 90%;
+  border-radius: 0.6rem;
+  color: #15773f;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.cropHealthPercentage {
+  font-size: 3.5rem;
+  font-weight: 100;
+}

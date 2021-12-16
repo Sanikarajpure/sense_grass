@@ -1,0 +1,44 @@
+.connectedDevicesBlock {
+  background-color: #21de7b;
+  border-radius: 0.6rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.8rem;
+  width: 9vw;
+  height: 25vh;
+  padding: 1rem;
+  color: #15773f;
+  font-size: 0.8rem;
+}
+
+.connectedDevicesNumber {
+  font-size: 3.5rem;
+}
+
+.connectedDevicesHeading {
+  margin: 1rem 0 0rem 0;
+}
+
+.connectedDevicesDetailsDescription {
+  margin: 0.1rem 0 0.1rem 0;
+  font-size: 0.7rem;
+}
+
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 420px) {
+  .connectedDevicesBlock {
+    margin: 0 1rem 1rem 0rem;
+    width: 23vw;
+    height: 23vh;
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .connectedDevicesNumber {
+    font-size: 3rem;
+  }
+
+  .connectedDevicesHeading {
+    margin: 0.4rem 0 0rem 0;
+  }
+}

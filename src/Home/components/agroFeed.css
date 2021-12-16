@@ -1,0 +1,50 @@
+.agroFeedBlock {
+  width: 22.5vw;
+  height: 30.2vh;
+  background-color: #07824f;
+  margin: 0 1rem 1rem 1rem;
+  border-radius: 0.4rem;
+  padding: 0.3rem;
+  color: #ffff;
+}
+.agroFeedHeading {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0.2rem 0 0.2rem 0.8rem;
+}
+
+.agroFeedListBlock {
+  height: 75%;
+  width: 95%;
+  margin: 0 0 0 0.5rem;
+  overflow-y: scroll;
+}
+
+.agroListItem {
+  height: 40%;
+  margin: 0.4rem;
+}
+.poweredByBlock {
+  font-size: 0.5rem;
+  font-weight: 300;
+  text-align: right;
+  padding: 0.5rem;
+}
+/*-------------------------------Media_Queries---------------------------------*/
+@media screen and (max-width: 420px) {
+  .agroFeedBlock {
+    width: 56vw;
+    height: 26vh;
+    background-color: #07824f;
+    margin: 0 0rem 1rem 0.1rem;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    color: #ffff;
+  }
+
+  .agroListItem {
+    height: max-content;
+    margin: 0.4rem;
+    
+  }
+}
