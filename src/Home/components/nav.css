@@ -57,7 +57,154 @@
 }
 
 /*-------------------------------Media_Queries---------------------------------*/
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 1370px) and (orientation: landscape) {
+  .navbarBlock {
+    height: 4.4vh;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1120px) and (orientation: landscape) {
+}
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  .navbarBlock {
+    height: 4.4vh;
+    align-items: center;
+  }
+  .userWrapper {
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .navbarBlock {
+    height: 4.4vh;
+    align-items: center;
+  }
+  .userWrapper {
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 840px) and (orientation: landscape) {
+  .navbarBlock {
+    height: 6.4vh;
+    align-items: center;
+  }
+  .menuOptionsBlock {
+    display: none;
+  }
+  .notificationIconBlock {
+    display: none;
+  }
+  .dateBlock {
+    display: none;
+  }
+  .fullscreenIconBlock {
+    display: none;
+  }
+  .userWrapper {
+    display: block;
+    width: max-content;
+  }
+  .menuBlockMobile {
+    display: block;
+  }
+  .actionsWrapper {
+    display: flex;
+  }
+  .hamburgerIcon {
+    padding: 0 2vw 0 5vw;
+  }
+  .fa-bars {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: portrait) {
+  .navbarBlock {
+    height: 4.4vh;
+
+    align-items: center;
+  }
+  .userWrapper {
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: landscape) {
+  .navbarBlock {
+    height: 6.4vh;
+    align-items: center;
+  }
+  .menuOptionsBlock {
+    display: none;
+  }
+  .notificationIconBlock {
+    display: none;
+  }
+  .dateBlock {
+    display: none;
+  }
+  .fullscreenIconBlock {
+    display: none;
+  }
+  .userWrapper {
+    display: block;
+    width: max-content;
+  }
+  .menuBlockMobile {
+    display: block;
+  }
+  .actionsWrapper {
+    display: flex;
+  }
+  .hamburgerIcon {
+    padding: 0 2vw 0 5vw;
+  }
+  .fa-bars {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 670px) and (orientation: landscape) {
+  .navbarBlock {
+    height: 6.4vh;
+    align-items: center;
+  }
+  .menuOptionsBlock {
+    display: none;
+  }
+  .notificationIconBlock {
+    display: none;
+  }
+  .dateBlock {
+    display: none;
+  }
+  .fullscreenIconBlock {
+    display: none;
+  }
+  .userWrapper {
+    display: block;
+    width: max-content;
+  }
+  .menuBlockMobile {
+    display: block;
+  }
+  .actionsWrapper {
+    display: flex;
+  }
+  .hamburgerIcon {
+    padding: 0 2vw 0 5vw;
+  }
+  .fa-bars {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 480px) and (orientation: portrait) {
+}
+@media screen and (max-width: 420px) and (orientation: portrait) {
   .menuOptionsBlock {
     display: none;
   }
@@ -86,4 +233,10 @@
   .fa-bars {
     font-size: 7vw;
   }
+}
+@media screen and (max-width: 380px) and (orientation: portrait) {
+}
+@media screen and (max-width: 361px) and (orientation: portrait) {
+}
+@media screen and (max-width: 320px) and (orientation: portrait) {
 }

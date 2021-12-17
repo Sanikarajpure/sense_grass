@@ -119,8 +119,84 @@
 .dropDownIcon {
   margin: -0.2rem 0 0 0;
 }
+
 /*-------------------------------Media_Queries---------------------------------*/
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 1370px) and (orientation: landscape) {
+  .fieldMapImg {
+    height: 48vh;
+    width: 28vw;
+  }
+  .fieldMapInfoBlock {
+    width: 25%;
+    margin: -2.6rem 0 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1120px) and (orientation: landscape) {
+}
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  .fieldMapImg {
+    height: 42vh;
+    width: 45vw;
+  }
+  .fieldMapInfoBlock {
+    width: 40%;
+    margin: -2.6rem 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .fieldMapImg {
+    height: 52vh;
+    width: 45vw;
+  }
+  .fieldMapInfoBlock {
+    width: 41%;
+    margin: -2.6rem 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 840px) and (orientation: landscape) {
+  .fieldMapImg {
+    height: 80vh;
+    width: 60vw;
+  }
+  .fieldMapInfoBlock {
+    width: 53%;
+    margin: -2.6rem 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: portrait) {
+  .fieldMapImg {
+    height: 40vh;
+    width: 45vw;
+  }
+  .fieldMapInfoBlock {
+    width: 40%;
+    margin: -2.6rem 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: landscape) {
+  .fieldMapImg {
+    height: 80vh;
+    width: 60vw;
+  }
+  .fieldMapInfoBlock {
+    width: 53%;
+    margin: -2.6rem 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 670px) and (orientation: landscape) {
+  .fieldMapImg {
+    height: 80vh;
+    width: 60vw;
+  }
+  .fieldMapInfoBlock {
+    width: 53%;
+    margin: -2.6rem 0 0 0.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) and (orientation: portrait) {
   .fieldMapImg {
     height: 40vh;
     width: 90vw;
@@ -129,4 +205,14 @@
     width: 80%;
     margin: -2.6rem 0 0 0.5rem;
   }
+}
+@media screen and (max-width: 380px) and (orientation: portrait) {
+}
+@media screen and (max-width: 361px) and (orientation: portrait) {
+  .fieldMapInfoBlock {
+    width: 82%;
+    margin: -2.6rem 0 0 0.1rem;
+  }
+}
+@media screen and (max-width: 320px) and (orientation: portrait) {
 }

@@ -29,17 +29,7 @@
   display: flex;
   height: max-content;
 }
-.Header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.quickAccessBlock {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #045922;
-}
+
 .agroFeedMobileContainer {
   display: none;
 }
@@ -73,8 +63,360 @@
 .agroMartContainer {
   width: 48%;
 }
+
 /*-------------------------------Media_Queries---------------------------------*/
-@media screen and (max-width: 420px) {
+
+@media screen and (max-width: 1370px) and (orientation: landscape) {
+  .homeContentContainer {
+    margin: 2vh 0 0 0;
+    padding: 8em 3rem 6rem 2rem;
+  }
+}
+
+@media screen and (max-width: 1120px) and (orientation: landscape) {
+}
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  .homeContentContainer {
+    margin: 4.8vh 0 0;
+    height: max-content;
+    padding: 2vh 0 0 0.8rem;
+    display: block;
+    padding: 3em 3rem 3rem 2rem;
+  }
+  .dashboardHeading {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 0.2rem;
+  }
+  .homeContentLeftBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+  }
+  .homeContentRightBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+    width: 95%;
+    padding: 0 0 7rem 0;
+  }
+  .toolsAndAppsHeadingBlock {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem 0;
+    align-items: center;
+    width: 100%;
+  }
+  .cropHealthAgroMartBlock {
+    display: flex;
+  }
+  .homeContentLeftContainer {
+    display: flex;
+  }
+  .homeContentRightContainer {
+    display: flex;
+  }
+  .currentWeatherConnectedDevicesContainer {
+    display: flex;
+  }
+  .agroFeedContainer {
+    display: block;
+  }
+  .connectedDevicesAgroFeedMobileContainer {
+    display: block;
+  }
+  .agroFeedMobileContainer {
+    display: none;
+  }
+  .cropHealthAgroMartBlock {
+    display: block;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .homeContentContainer {
+    margin: 4.8vh 0 0;
+    height: max-content;
+    padding: 2vh 0 0 0.8rem;
+    display: block;
+    padding: 3em 3rem 3rem 2rem;
+  }
+  .dashboardHeading {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 0.2rem;
+  }
+  .homeContentLeftBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+  }
+  .homeContentRightBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+    width: 100%;
+    padding: 0 0 7rem 0;
+  }
+  .toolsAndAppsHeadingBlock {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem 0;
+    align-items: center;
+    width: 100%;
+  }
+  .cropHealthContainer {
+    width: 100%;
+  }
+  .agroMartContainer {
+    width: 48%;
+  }
+  .cropHealthAgroMartBlock {
+    display: flex;
+  }
+  .homeContentLeftContainer {
+    display: flex;
+  }
+  .homeContentRightContainer {
+    display: flex;
+  }
+  .currentWeatherConnectedDevicesContainer {
+    display: flex;
+  }
+  .agroFeedContainer {
+    display: block;
+  }
+  .connectedDevicesAgroFeedMobileContainer {
+    display: block;
+  }
+  .agroFeedMobileContainer {
+    display: none;
+  }
+  .cropHealthAgroMartBlock {
+    display: block;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 840px) and (orientation: landscape) {
+  .homeContentContainer {
+    margin: 4.8vh 0 0;
+    height: max-content;
+    padding: 2vh 0 0 15vw;
+    display: block;
+  }
+  .dashboardHeading {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 0.2rem;
+  }
+  .homeContentLeftBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+  }
+  .homeContentRightBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+    width: 95%;
+    padding: 0 0 7rem 0;
+  }
+  .toolsAndAppsHeadingBlock {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem 0;
+    align-items: center;
+    width: 76%;
+  }
+  .cropHealthAgroMartBlock {
+    display: flex;
+
+    width: 78%;
+  }
+  .homeContentLeftContainer {
+    display: block;
+  }
+  .homeContentRightContainer {
+    display: block;
+  }
+  .currentWeatherConnectedDevicesContainer {
+    display: block;
+  }
+  .agroFeedContainer {
+    display: none;
+  }
+  .connectedDevicesAgroFeedMobileContainer {
+    display: flex;
+  }
+  .agroFeedMobileContainer {
+    display: block;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: portrait) {
+  .homeContentContainer {
+    margin: 4.8vh 0 0;
+    height: max-content;
+    padding: 2vh 0 0 0.8rem;
+    display: block;
+    padding: 2em 3rem 3rem 1.2rem;
+  }
+  .dashboardHeading {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 0.2rem;
+  }
+  .homeContentLeftBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+  }
+  .homeContentRightBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+    width: 95%;
+    padding: 0 0 7rem 0;
+  }
+  .toolsAndAppsHeadingBlock {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem 0;
+    align-items: center;
+    width: 100%;
+  }
+  .cropHealthAgroMartBlock {
+    display: flex;
+  }
+  .homeContentLeftContainer {
+    display: flex;
+  }
+  .homeContentRightContainer {
+    display: flex;
+  }
+  .currentWeatherConnectedDevicesContainer {
+    display: flex;
+  }
+  .agroFeedContainer {
+    display: block;
+  }
+  .connectedDevicesAgroFeedMobileContainer {
+    display: block;
+  }
+  .agroFeedMobileContainer {
+    display: none;
+  }
+  .cropHealthAgroMartBlock {
+    display: block;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 770px) and (orientation: landscape) {
+  .homeContentContainer {
+    margin: 4.8vh 0 0;
+    height: max-content;
+    padding: 2vh 0 0 15vw;
+    display: block;
+  }
+  .dashboardHeading {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 0.2rem;
+  }
+  .homeContentLeftBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+  }
+  .homeContentRightBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+    width: 95%;
+    padding: 0 0 7rem 0;
+  }
+  .toolsAndAppsHeadingBlock {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem 0;
+    align-items: center;
+    width: 76%;
+  }
+  .cropHealthAgroMartBlock {
+    display: flex;
+
+    width: 78%;
+  }
+  .homeContentLeftContainer {
+    display: block;
+  }
+  .homeContentRightContainer {
+    display: block;
+  }
+  .currentWeatherConnectedDevicesContainer {
+    display: block;
+  }
+  .agroFeedContainer {
+    display: none;
+  }
+  .connectedDevicesAgroFeedMobileContainer {
+    display: flex;
+  }
+  .agroFeedMobileContainer {
+    display: block;
+  }
+}
+@media screen and (max-width: 670px) and (orientation: landscape) {
+  .homeContentContainer {
+    margin: 4.8vh 0 0;
+    height: max-content;
+    padding: 2vh 0 0 15vw;
+    display: block;
+  }
+  .dashboardHeading {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 0.2rem;
+  }
+  .homeContentLeftBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+  }
+  .homeContentRightBlock {
+    display: block;
+    margin: 0 0 2rem 0;
+    width: 95%;
+    padding: 0 0 7rem 0;
+  }
+  .toolsAndAppsHeadingBlock {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem 0;
+    align-items: center;
+    width: 76%;
+  }
+  .cropHealthAgroMartBlock {
+    display: flex;
+
+    width: 78%;
+  }
+  .homeContentLeftContainer {
+    display: block;
+  }
+  .homeContentRightContainer {
+    display: block;
+  }
+  .currentWeatherConnectedDevicesContainer {
+    display: block;
+  }
+  .agroFeedContainer {
+    display: none;
+  }
+  .connectedDevicesAgroFeedMobileContainer {
+    display: flex;
+  }
+  .agroFeedMobileContainer {
+    display: block;
+  }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) and (orientation: portrait) {
   .homeContentContainer {
     margin: 4.8vh 0 0;
     height: max-content;
@@ -99,7 +441,7 @@
     display: flex;
     justify-content: space-between;
     color: #ffff;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin: 1rem 0 1rem 0;
     align-items: center;
     width: 100%;
@@ -108,6 +450,9 @@
     display: flex;
   }
   .homeContentLeftContainer {
+    display: block;
+  }
+  .homeContentRightContainer {
     display: block;
   }
   .currentWeatherConnectedDevicesContainer {
@@ -122,4 +467,13 @@
   .agroFeedMobileContainer {
     display: block;
   }
+}
+@media screen and (max-width: 380px) and (orientation: portrait) {
+}
+@media screen and (max-width: 361px) and (orientation: portrait) {
+  .homeContentContainer {
+    padding: 2vh 0 0 0.6rem;
+  }
+}
+@media screen and (max-width: 320px) and (orientation: portrait) {
 }

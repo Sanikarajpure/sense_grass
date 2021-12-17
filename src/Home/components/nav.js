@@ -46,7 +46,7 @@ const Navbar = () => {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
   const refMobileMenu = useClickOutside(setOpenMobileMenu);
 
-  const menuItems = ["File", "View", "Maps", "Help"];
+  const menuItems = ["File", "View", "Maps", "Help", "Add Activity"];
 
   return (
     <div className="navbarWrapper">

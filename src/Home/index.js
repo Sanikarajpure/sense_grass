@@ -1,20 +1,17 @@
 import React from "react";
-import Navbar from "./components/nav";
-import QuickAcess from "./components/quickAccess";
+
 import FieldInfo from "./components/fieldInfo";
 import CurrentWeather from "./components/currentWeather";
 import ConnectedDevices from "./components/connectedDevice";
 import AgroFeed from "./components/agroFeed";
 import CropHealth from "./components/cropHealth";
 import AgroMart from "./components/agroMart";
+import CropCalendar from "./components/cropCalendar";
 import "./home.css";
 
 const Home = () => {
   return (
     <div className="homeWrapper">
-      <div className="Header">
-        <Navbar />
-      </div>
       <div className="homeBlock">
         <div className="homeContentContainer">
           <div className="homeContentLeftBlock">
@@ -49,7 +46,9 @@ const Home = () => {
               <div className="appsHeading">View App Store</div>
             </div>
             <div className="homeContentRightContainer">
-              <div className="cropCalendarContainer">calendar</div>
+              <div className="cropCalendarContainer">
+                <CropCalendar />
+              </div>
               <div className="cropHealthAgroMartBlock">
                 <div className="cropHealthContainer">
                   <CropHealth />
@@ -60,9 +59,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="quickAccessBlock">
-          <QuickAcess />
         </div>
       </div>
     </div>
